@@ -1,0 +1,83 @@
+
+.sidebar-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px 0px 10px;
+}
+
+.sidebar-title > span {
+  display: none;
+}
+
+.sidebar-brand {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+
+.sidebar-list {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon:hover{
+  color: #fff;
+}
+
+.sidebar-list-item {
+  padding: 15px 10px 15px 10px;
+  font-size: 16px;
+  border-bottom: 1px solid #33363f; 
+  transition: background-color 0.3s;
+}
+
+.sidebar-list-item:hover {
+  background-color: #272c35;
+  cursor: pointer;
+}
+
+.sidebar-list-item > a {
+  text-decoration: none;
+  color: #9e9ea4;
+}
+
+.sidebar-list-item a:hover{
+  color: #fff;
+}
+
+.sidebar-responsive {
+  display: inline !important;
+  position: absolute;
+  z-index: 12 !important;
+}
+
+/* Search bar */
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  flex: 1;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+.search-icon {
+  background-color: #007bff; /* เปลี่ยนสีพื้นหลังไอคอนตามที่คุณต้องการ */
+  color: #fff; /* เปลี่ยนสีไอคอนตามที่คุณต้องการ */
+  border-radius: 0 4px 4px 0;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  cursor: pointer;
+}
