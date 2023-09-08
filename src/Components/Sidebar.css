@@ -73,8 +73,8 @@
 }
 
 .search-icon {
-  background-color: #007bff; /* เปลี่ยนสีพื้นหลังไอคอนตามที่คุณต้องการ */
-  color: #fff; /* เปลี่ยนสีไอคอนตามที่คุณต้องการ */
+  background-color: #007bff;
+  color: #fff;
   border-radius: 0 4px 4px 0;
   display: flex;
   align-items: center;

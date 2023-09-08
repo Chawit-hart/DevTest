@@ -81,8 +81,8 @@ strong {
 
 /* Style view posts button */
 .button-89 {
-  --b: 3px; /* border thickness */
-  --s: 0.45em; /* size of the corner */
+  --b: 3px; 
+  --s: 0.45em; 
   --color: #373b44;
 
   padding: calc(0.5em + var(--s)) calc(0.9em + var(--s));
